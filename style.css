@@ -431,3 +431,38 @@ footer p{
 .top-image{
     border-radius: 250rem;
 }
+
+.social-links{
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.social-links a{
+    font-size: 30px;
+    color: #606163;
+    margin-right: 20px;
+}
+
+.social-links a:hover{
+    color: #ff4321;
+    font-size: 40px;
+    transition-duration: 0.25s;
+}
+
+#git:hover{
+    color: #3c1f60;
+    font-size: 40px;
+    transition-duration: 0.25s;
+}
+
+#linke:hover{
+    color: #0A66C2;
+    font-size: 40px;
+    transition-duration: 0.25s;
+}
+
+#x:hover{
+    color: #1DA1F2;
+    font-size: 40px;
+    transition-duration: 0.25s;
+}
