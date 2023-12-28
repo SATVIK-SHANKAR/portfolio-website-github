@@ -213,6 +213,30 @@ section{
     height: 3rem;
 }
 
+#icon1{
+    font-size: 30px;
+    cursor: pointer;
+    height: 3rem;
+    margin-right: 20px;
+}
+
+#icon2{
+    font-size: 30px;
+    cursor: pointer;
+    height: 3rem;
+}
+
+#icon1:hover{
+    color: #0A66C2;
+    font-size: 40px;
+    transition-duration: 0.25s;
+}
+
+#icon2:hover{
+    color: #3c1f60;
+    font-size: 40px;
+    transition-duration: 0.25s;
+}
 /* buttons */
 
 .btn-container{
