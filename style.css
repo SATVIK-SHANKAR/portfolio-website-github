@@ -237,7 +237,7 @@ section{
     font-size: 40px;
     transition-duration: 0.25s;
 }
-/* buttons */
+/* buttons default */
 
 .btn-container{
     display: flex;

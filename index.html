@@ -43,8 +43,9 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Satvik</h1>
-            <p class="section__text__p2">Frontend Developer</p>
-            <div class="btn-container">
+            <p class="section__text__p2" id="typefun">Frontend Developer</p>
+            <span id="typefun"></span>
+            <div class="btn-container"> 
                 <button class="btn btn-color-2" onclick="window.open('./assets/SATVIK_RESUME.pdf')">
                 Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
@@ -259,5 +260,12 @@
         <p>Copyrigth &#169; 2023. Satvik  All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script>
+        var typed = new Typed('#typefun', {
+          strings: ['<i>Badminton Player</i>','<i>Quant Enthusiast</i>','<i>Frontend Developer</i>'],
+          typeSpeed: 40,
+        });
+      </script> -->
 </body>
 </html>
